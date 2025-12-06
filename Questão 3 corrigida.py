@@ -7,7 +7,6 @@ def obter_contagem(item):
     # Retorna o elemento no índice 1 da tupla (a contagem)
     return item[1]
 
-
 def contar_torcedores_puro(nome_arquivo='pessoas.csv'):
     """
     Lê um arquivo CSV, conta torcedores e exibe em ordem decrescente,
@@ -58,7 +57,7 @@ def contar_torcedores_puro(nome_arquivo='pessoas.csv'):
 
         # 3. Exibição dos Resultados
 
-        print(f"\n🏆 Resultados da Contagem de Torcedores no arquivo '{nome_arquivo}' (Sem Lambda):")
+        print(f"\n Resultados da Contagem de Torcedores no arquivo '{nome_arquivo}':")
         print("-" * 50)
 
         if not resultados_ordenados:
