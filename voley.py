@@ -21,7 +21,7 @@ for i in range(n):
     # 1. ENTRADA DE N.º DE TENTATIVAS (S, B, A)
 
     print(f"Digite as tentativas (S, B, A) do {nome_jogador} separadas por espaço: ")
-    s, b, a = map(int, input().split())
+    s, b, a = map(int, input().split()) # recebe e separa e transforma para inteiros os valores e atribui as variáveis s,b,a
 
     # 2. ENTRADA DE N.º DE JOGADAS SUCEDIDAS (S1, B1, A1)
 
